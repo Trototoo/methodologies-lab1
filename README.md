@@ -71,3 +71,4 @@ File pattern: no file
 
 **Revert-commit link:**
 
+https://github.com/Trototoo/methodologies-lab1/commit/b6e0973978c9ee8eb8aefefa155739908ed4be3b
