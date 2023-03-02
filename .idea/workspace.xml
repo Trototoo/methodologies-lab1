@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="103b8a3e-8c25-4921-8bac-33532ee39f36" name="Changes" comment="Added function to readNumber from user in interactive mode.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="103b8a3e-8c25-4921-8bac-33532ee39f36" name="Changes" comment="Added function for interactive mode. That return Triple(a, b, c) entered by user.">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +39,10 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -49,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677748296265</updated>
-      <workItem from="1677748297416" duration="291000" />
+      <workItem from="1677748297416" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from IDEA.">
       <created>1677748364042</created>
@@ -72,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677748577162</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added function for interactive mode. That return Triple(a, b, c) entered by user.">
+      <created>1677748635246</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677748635246</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,7 +95,8 @@
     <MESSAGE value="Initial commit from IDEA." />
     <MESSAGE value="Created QuadraticEquation class that can print itself and print it's roots." />
     <MESSAGE value="Added function to readNumber from user in interactive mode." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added function to readNumber from user in interactive mode." />
+    <MESSAGE value="Added function for interactive mode. That return Triple(a, b, c) entered by user." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added function for interactive mode. That return Triple(a, b, c) entered by user." />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
