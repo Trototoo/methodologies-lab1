@@ -50,7 +50,9 @@ Examples of program running:
 <u>Interactive mode</u>
 
 ![example1.png](src%2Fmain%2Fresources%2Fimages%2FExamples%2Fexample1.png)
+
 ![example2.png](src%2Fmain%2Fresources%2Fimages%2FExamples%2Fexample2.png)
+
 ![example3.png](src%2Fmain%2Fresources%2Fimages%2FExamples%2Fexample3.png)
 
 <u>Noninteractive mode</u>
