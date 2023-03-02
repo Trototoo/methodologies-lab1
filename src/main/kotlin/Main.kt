@@ -2,11 +2,19 @@ import java.io.File
 import java.lang.NumberFormatException
 
 fun main(args: Array<String>) {
-    println("Hello World!")
+    if (args.isNotEmpty()) {
+        val (a, b, c) = readABCNonInteractive(args)
+        createEquationAndPrintRoots(a, b, c)
+    } else {
+        val (a, b, c) = readABCInteractive()
+        createEquationAndPrintRoots(a, b, c)
+    }
+}
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun createEquationAndPrintRoots(a: Double, b: Double, c: Double) {
+    val equation = QuadraticEquation(a, b, c)
+    equation.printEquation()
+    equation.printRoots()
 }
 
 private fun readNumber(string: String): Double {
