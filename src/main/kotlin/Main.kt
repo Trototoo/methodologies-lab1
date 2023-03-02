@@ -19,3 +19,16 @@ private fun readNumber(string: String): Double {
         }
     }
 }
+
+private fun readABCInteractive(): Triple<Double, Double, Double> {
+    var a: Double
+    do {
+        a = readNumber("a = ")
+        if (a == 0.0) println("Error. A cannot be 0")
+    } while (a == 0.0)
+
+    val b = readNumber("b = ")
+
+    val c = readNumber("c = ")
+    return Triple(a, b, c)
+}
