@@ -49,3 +49,15 @@ private fun checkIfFileSuits(args: Array<String>): String {
     }
     return fileContents
 }
+
+private fun readABCNonInteractive(args: Array<String>): Triple<Double, Double, Double> {
+    val fileContents = checkIfFileSuits(args)
+    val parts = fileContents.split("\\s+".toRegex())
+    val a = parts[0].toDouble()
+    if (a == 0.0) {
+        error("Error. a cannot be 0")
+    }
+    val b = parts[1].toDouble()
+    val c = parts[2].toDouble()
+    return Triple(a, b, c)
+}
