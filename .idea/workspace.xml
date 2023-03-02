@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="103b8a3e-8c25-4921-8bac-33532ee39f36" name="Changes" comment="Initial commit from IDEA." />
+    <list default="true" id="103b8a3e-8c25-4921-8bac-33532ee39f36" name="Changes" comment="Created QuadraticEquation class that can print itself and print it's roots.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677748296265</updated>
-      <workItem from="1677748297416" duration="139000" />
+      <workItem from="1677748297416" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from IDEA.">
       <created>1677748364042</created>
@@ -55,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677748364042</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created QuadraticEquation class that can print itself and print it's roots.">
+      <created>1677748501160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677748501160</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,7 +73,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit from IDEA." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit from IDEA." />
+    <MESSAGE value="Created QuadraticEquation class that can print itself and print it's roots." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created QuadraticEquation class that can print itself and print it's roots." />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
